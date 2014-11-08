@@ -1,0 +1,24 @@
+Script started on Thu 16 Oct 2014 06:53:59 PM PDT
+Note: $DISPLAY is set to  for X windows.
+
+    *** Notice: This is an ECS IT resource, intended to be used for purposes
+        related to the educational activities of faculty, staff and students
+        of California State University Sacramento. Any other use is a
+        violation of University and College policy.
+
+
+[?1034h[kindermw@athena four]> make
+gcc -g -Wall -c copy.c
+gcc -g -Wall -c error_functions.c
+gcc copy.o error_functions.o -o csc60cp
+[kindermw@athena four]> ./csc60cp file.txt newfile.txt
+[kindermw@athena four]> ./csc60cp file.txt file.txt
+Usage: trying to copy a file to itself
+[kindermw@athena four]> ./csc60cp dir1 file.txt 
+ERROR [EISDIR Is a directory] read
+[kindermw@athena four]> ./csc60cp file.txt dir1
+ERROR [EISDIR Is a directory] opening file dir1
+[kindermw@athena four]> exit
+exit
+
+Script done on Thu 16 Oct 2014 06:54:45 PM PDT
