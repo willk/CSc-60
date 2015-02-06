@@ -1,0 +1,18 @@
+Script started on Tue Dec  2 17:55:18 2014
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;willk@kegtop: ~/code/school/2014/Fall/60/six]1;..4/Fall/60/six[0m[27m[24m[J[32m17:55:18[00m [34mwillk[00m@kegtop.local[00m [34msix[00m [33mmaster[32m [33m?[32m[00m[00m [K[?1h=l ../msh[31m......[0m[0m[27m[24m[J[32m17:55:18[00m [34mwillk[00m@kegtop.local[00m [34msix[00m [33mmaster[32m [33m?[32m[00m[00m ./msh[1m [0m[K[0m [?1l>
+]2;./msh]1;./mshWelcome to the mini-shell, msh!
+msh > ls -al
+total 112
+drwxr-xr-x   9 willk  staff    306 Dec  2 17:55 .
+drwxr-xr-x  10 willk  staff    340 Nov 20 13:45 ..
+-rw-r--r--@  1 willk  staff   6148 Nov 24 20:20 .DS_Store
+-rw-r--r--   1 willk  staff    183 Nov  5 22:58 Makefile
+-rwxr-xr-x   1 willk  staff  13820 Dec  2 17:53 msh
+-rw-r--r--@  1 willk  staff   5417 Dec  2 17:53 msh.c
+-rw-r--r--   1 willk  staff   5748 Dec  2 17:53 msh.o
+-rw-rw-r--   1 willk  staff   4465 Nov 24 20:20 msh2.c
+-rw-r--r--   1 willk  staff     43 Dec  2 17:55 typescript
+msh > exit
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;willk@kegtop: ~/code/school/2014/Fall/60/six]1;..4/Fall/60/six[0m[27m[24m[J[32m17:55:24[00m [34mwillk[00m@kegtop.local[00m [34msix[00m [33mmaster[32m [33m?[32m[00m[00m [K[?1h=eexit[?1l>
+]2;exit]1;exit
+Script done on Tue Dec  2 17:55:29 2014

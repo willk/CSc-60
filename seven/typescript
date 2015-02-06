@@ -1,0 +1,38 @@
+Script started on Tue 09 Dec 2014 09:02:52 PM PST
+Note: $DISPLAY is set to  for X windows.
+
+    *** Notice: This is an ECS IT resource, intended to be used for purposes
+        related to the educational activities of faculty, staff and students
+        of California State University Sacramento. Any other use is a
+        violation of University and College policy.
+
+
+[?1034h[kindermw@athena seven]> sem_sync 4 5 6
+21:02:57  Parent started.
+21:03:01  Child 0 (PID=32759) child done.
+21:03:02  Child 1 (PID=32760) child done.
+21:03:03  Child 2 (PID=32761) child done.
+21:03:03  Parent ready to go.
+[kindermw@athena seven]> sem_sync 6 5
+21:03:03  Parent started.
+21:03:08  Child 1 (PID=352) child done.
+21:03:09  Child 0 (PID=350) child done.
+21:03:09  Parent ready to go.
+[kindermw@athena seven]> sem_sync 0 0 0
+21:03:09  Parent started.
+21:03:09  Child 0 (PID=383) child done.
+21:03:09  Child 1 (PID=384) child done.
+21:03:09  Child 2 (PID=385) child done.
+21:03:09  Parent ready to go.
+[kindermw@athena seven]> sem_sync 5 4 3 2 1
+21:03:12  Parent started.
+21:03:13  Child 4 (PID=391) child done.
+21:03:14  Child 3 (PID=390) child done.
+21:03:15  Child 2 (PID=389) child done.
+21:03:16  Child 1 (PID=388) child done.
+21:03:17  Child 0 (PID=387) child done.
+21:03:17  Parent ready to go.
+[kindermw@athena seven]> exit
+exit
+
+Script done on Tue 09 Dec 2014 09:03:26 PM PST
